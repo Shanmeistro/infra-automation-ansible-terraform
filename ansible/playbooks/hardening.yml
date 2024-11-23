@@ -1,0 +1,18 @@
+- name: Basic Security Hardening
+  hosts: all
+  become: yes
+  tasks:
+    - name: Update all packages
+      apt:
+        update_cache: yes
+        upgrade: dist
+    - name: Disable root login
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        regexp: '^PermitRootLogin'
+        line: 'PermitRootLogin no'
+        state: present
+    - name: Restart SSH service
+      service:
+        name: ssh
+        state: restarted
