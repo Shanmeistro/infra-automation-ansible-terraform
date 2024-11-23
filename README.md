@@ -74,9 +74,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Here are the badge URLs with placeholders for `your-username` and the branch (e.g., `main`):
 
 1.  **Build Status**:  
-    `![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/infra-automation-ansible-terraform/terraform-apply.yml?branch=main)`
+    `![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/infra-automation-ansible-terraform/ci-cd/.github/workflows/terraform-apply.yml?branch=main)`
 
-E.G `![Build Status](https://img.shields.io/github/actions/workflow/status/shanmeistro/infra-automation-ansible-terraform/terraform-apply.yml?branch=main)`
+E.G `![Build Status](https://img.shields.io/github/actions/workflow/status/shanmeistro/infra-automation-ansible-terraform/ci-cd/.github/workflows/terraform-apply.yml?branch=main)`
 
 2.  **License**:  
     `![License](https://img.shields.io/github/license/your-username/infra-automation-ansible-terraform)`
