@@ -1,0 +1,32 @@
+infra-automation-ansible-terraform/
+├── terraform/
+│   ├── aws/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   ├── outputs.tf
+│   │   ├── provider.tf
+│   ├── azure/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       ├── provider.tf
+├── ansible/
+│   ├── playbooks/
+│   │   ├── webserver.yml
+│   │   ├── database.yml
+│   │   ├── hardening.yml
+│   ├── inventories/
+│       ├── aws/
+│           ├── hosts
+│           ├── group_vars/
+│       ├── azure/
+│           ├── hosts
+│           ├── group_vars/
+├── ci-cd/
+│   ├── .github/
+│   │   ├── workflows/
+│       ├── terraform-apply.yml
+│       ├── ansible-run.yml
+├── README.md
+├── LICENSE
+└── CONTRIBUTING.md
