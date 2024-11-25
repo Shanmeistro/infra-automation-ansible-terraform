@@ -69,21 +69,3 @@ We welcome contributions! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md)
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Badges
-
-Here are the badge URLs with placeholders for `your-username` and the branch (e.g., `main`):
-
-1.  **Build Status**:  
-    `![Build Status](https://img.shields.io/github/actions/workflow/status/your-username/infra-automation-ansible-terraform/ci-cd/.github/workflows/terraform-apply.yml?branch=main)`
-
-E.G `![Build Status](https://img.shields.io/github/actions/workflow/status/shanmeistro/infra-automation-ansible-terraform/ci-cd/.github/workflows/terraform-apply.yml?branch=main)`
-
-2.  **License**:  
-    `![License](https://img.shields.io/github/license/your-username/infra-automation-ansible-terraform)`
-
-E.G `![License](https://img.shields.io/github/license/shanmeistro/infra-automation-ansible-terraform)`
-
-3.  **Terraform Version**:  
-    `![Terraform](https://img.shields.io/badge/Terraform-v1.x-blue)`
-4.  **Ansible Version**:  
-    `![Ansible](https://img.shields.io/badge/Ansible-v2.x-green)`
